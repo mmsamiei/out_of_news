@@ -1,7 +1,8 @@
 # Agent handoff
 
-This is khabar_ara (خبرآرا), an independent Persian daily-news Telegram project
-for @khabar_ara. Read README.md and
+This is out_of_news (Out of News), an independent Persian daily-news Telegram project
+The last user-provided channel handle is @khabar_ara; a new handle is not yet
+confirmed. Read README.md and
  docs/product.md before implementation. The original in-the-ai repository is
 background experience, not this project's live runtime or database.
 
