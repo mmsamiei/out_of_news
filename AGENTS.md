@@ -11,9 +11,12 @@ background experience, not this project's live runtime or database.
 - Public Telegram news output, exactly THREE sentences per news body.
 - No daily post-count cap has been accepted; do not impose the proposed eight
   posts/day or one-hour spacing. Polling cadence is still undecided.
-- The user requests content not opposing Islamic Republic of Iran policies.
-  Exact editorial scope is pending clarification in docs/product.md; do not
-  distort facts or quotations or represent this preference as legal assurance.
+- Exercise caution with insulting or derogatory material about religion, faith,
+  the government and leaders of the Islamic Republic of Iran. This includes
+  implications introduced by literary devices. Hold ambiguous or insulting
+  drafts for review; preserve the selected devices during revision. Critical
+  reporting alone is not prohibited. Do not distort facts or quotations or
+  represent this editorial preference as legal assurance.
 - Language enrichment through natural vocabulary and literary devices in prose.
 - Randomly choose two or three DISTINCT devices from the configured list, without
   compatibility filters, weighted suitability, replacement or rerolling.
