@@ -37,4 +37,6 @@ background experience, not this project's live runtime or database.
 Scaffolding only. Confirm pending product choices in docs/product.md as needed;
 record accepted changes durably. Do not inherit the other bot's news sources,
 model, reasoning setting, cadence or editorial style without a decision here.
-The preliminary device list contains user-named examples, not a final taxonomy.
+The user approved all 24 devices in config/literary-devices.json; definitions
+are in docs/literary-devices-proposal.md. The two-or-three count policy is still
+undecided.
