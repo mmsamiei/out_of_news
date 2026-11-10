@@ -1,6 +1,7 @@
 # Agent handoff
 
-This is an independent Persian daily-news Telegram project. Read README.md and
+This is khabar_ara (خبرآرا), an independent Persian daily-news Telegram project
+for @khabar_ara. Read README.md and
  docs/product.md before implementation. The original in-the-ai repository is
 background experience, not this project's live runtime or database.
 
