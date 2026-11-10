@@ -9,6 +9,11 @@ background experience, not this project's live runtime or database.
 ## Accepted requirements
 
 - Public Telegram news output, exactly THREE sentences per news body.
+- No daily post-count cap has been accepted; do not impose the proposed eight
+  posts/day or one-hour spacing. Polling cadence is still undecided.
+- The user requests content not opposing Islamic Republic of Iran policies.
+  Exact editorial scope is pending clarification in docs/product.md; do not
+  distort facts or quotations or represent this preference as legal assurance.
 - Language enrichment through natural vocabulary and literary devices in prose.
 - Randomly choose two or three DISTINCT devices from the configured list, without
   compatibility filters, weighted suitability, replacement or rerolling.
