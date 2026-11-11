@@ -1,0 +1,13 @@
+[Unit]
+Description=Out of News cycle
+After=network-online.target docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/out_of_news
+EnvironmentFile=/etc/out-of-news/runtime.env
+ExecStart=/usr/bin/python3 -m outnews.cycle --publish
+TimeoutStartSec=13min
+KillMode=control-group
+UMask=0077

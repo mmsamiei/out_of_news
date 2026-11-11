@@ -1,0 +1,9 @@
+[Unit]
+Description=Out of News every 15 minutes
+[Timer]
+OnCalendar=*-*-* *:00/15:00
+AccuracySec=1s
+Persistent=true
+Unit=out-of-news.service
+[Install]
+WantedBy=timers.target
