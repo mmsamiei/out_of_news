@@ -33,8 +33,9 @@ def call(task, payload, timeout=120):
                '-c','model_reasoning_effort="low"','-o','/work/result.json','-']
         try:
             proc = subprocess.run(cmd,input=prompt,text=True,capture_output=True,timeout=timeout,check=False)
-        except subprocess.TimeoutExpired:
+        except (subprocess.TimeoutExpired, KeyboardInterrupt) as exc:
             subprocess.run(['docker','rm','-f',name],capture_output=True,timeout=15,check=False)
+            if isinstance(exc, KeyboardInterrupt): raise
             raise RuntimeError('Codex timeout') from None
         if proc.returncode:
             raise RuntimeError('Isolated Codex exited with status '+str(proc.returncode))
